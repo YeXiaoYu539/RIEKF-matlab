@@ -3,7 +3,7 @@
  close all;
 
  data = xlsread('trainflightrawdata\data_156_20210709_ID5.csv',1);
-%data = xlsread('testflightrawdata\datadata_180_·ÉĞĞÊı¾İ20210427_´©Ô½ÃÅ¿ò_yrw15_5.csv',1);
+%data = xlsread('testflightrawdata\datadata_180_é£è¡Œæ•°æ®20210427_ç©¿è¶Šé—¨æ¡†_yrw15_5.csv',1);
 %data = xlsread('trainflightrawdata\data_125_20210714.csv',1);
 
 % load("NNModel\lstmnet.mat");
@@ -37,7 +37,7 @@ All.Nz = data(dataRange,23);
 All.Qbar = data(dataRange,24);
 All.Vc = data(dataRange,25);
 All.href = data(dataRange,27);
-%% ÈıÎ¬Î»ÖÃ
+%% ä¸‰ç»´ä½ç½®
 All.Xnorth = data(dataRange,30);
 All.Yeast = data(dataRange,31);
 All.hrefAL = data(dataRange,32);
@@ -82,7 +82,7 @@ All.door_incamz = data(dataRange,89);
 All.can_indoorx = data(dataRange,93);
 All.can_indoory = data(dataRange,94);
 All.can_indoorz = data(dataRange,95);
-%% ¾­Î³¶È
+%% ç»çº¬åº¦
 All.lon = data(dataRange,103);
 All.lat = data(dataRange,104);
 
